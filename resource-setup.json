@@ -1,0 +1,22 @@
+{
+  "agents": {
+    "explorer": [
+      "file:///Users/todd/.kiro/skills/get-code-context-exa/SKILL.md"
+    ],
+    "reviewer": [
+      "file:///./CLAUDE.md",
+      "file://.kiro/**/*.md",
+      "file:///Users/todd/.agent/skills/vercel-react-best-practices/**/*.md",
+      "file:///Users/todd/.agent/skills/vercel-composition-patterns/**/*.md"
+    ],
+    "developer": [
+      "file://CLAUDE.md",
+      "file://.kiro/**/*.md",
+      "file://README.md",
+      "file://package.json",
+      "file:///Users/todd/.agent/skills/vercel-react-best-practices/**/*.md",
+      "file:///Users/todd/.agent/skills/vercel-composition-patterns/**/*.md",
+      "file:///Users/todd/.agents/skills/frontend-patterns/SKILL.md"
+    ]
+  }
+}
